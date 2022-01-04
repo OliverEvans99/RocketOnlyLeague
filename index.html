@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
 <style>
-.RocketName {
+.font {
+font-family: Fantasy;
+font-size: 40px;
+color: #2D4F90;
+}
+
+.titil {
 position: absolute;
 left: 29%;
 top: 5px;
@@ -13,10 +19,22 @@ border-color: #E0C245;
 border-radius: 20px;
 }
 
+.titil2 {
+position: absolute;
+left: 38%;
+top: 5px;
+width: 600px;
+height: 80px;
+border-style: outset;
+border-width: 5px;
+border-color: #E0C245;
+border-radius: 20px;
+}
+
 .RocketLogo {
 position: absolute;
 left: 45%;
-top: 150px;
+top: 250px;
 width: 200px;
 height: 200px;
 border-radius: 100px;
@@ -53,17 +71,54 @@ border-width: 5px;
 border-color: #E0C245;
 }
 
+.back {
+position: absolute
+left: 0px;
+top: 0px;
+width: 1866px;
+height: 600px;
+}
+
+.banner2 {
+position: relative;
+left: -10px;
+top: 5px;
+width: 1872px;
+height: 100px;
+background-color: #2D4F90;
+border-style: outset;
+border-width: 5px;
+border-color: #E0C245;
+}
+
 body {background-color: #332E32;}
 </style>
 <head>
 	<title>Home</title>
 </head>
 <body>
+	
 	<div class="banner">
 		<img class="RocketLogo" src="roket_league_logo.png">
 		<img class="RocketLeft" src="rouket_left.png">
 		<img class="RocketRight" src="rocket_right.png">
-		<img class="RocketName" src="rocket_only_league.png">
+		<img class="titil" src="rocket_only_league.png">
+	</div>
+	<img class="back" src="back.png">
+	<div class="banner2">
+		<img class="RocketLeft" src="rouket_left.png">
+		<img class="RocketRight" src="rocket_right.png">
+		<img class="titil2" src="about.png">
+	</div>
+	<p class="font">
+			This is a league where teams compete against each other in a payload and a domination 
+			and if there is a tie a stadium or a TDM but the twist 
+			is the only weapon each team will have is rockets.
+	</p>
+	<div class="banner2">
+		<img class="RocketLeft" src="rouket_left.png">
+		<img class="RocketRight" src="rocket_right.png">
+		<img class="titil2" src="teams.png">
 	</div>
 	
 	
