@@ -1,23 +1,71 @@
 <!DOCTYPE html>
 <html>
 <style>
+.RocketName {
+position: absolute;
+left: 29%;
+top: 5px;
+width: 800px;
+height: 80px;
+border-style: outset;
+border-width: 5px;
+border-color: #E0C245;
+border-radius: 20px;
+}
 
-.banner {
+.RocketLogo {
+position: absolute;
+left: 45%;
+top: 150px;
+width: 200px;
+height: 200px;
+border-radius: 100px;
+border-style: outset;
+border-width: 5px;
+border-color: #E0C245;
+}
+
+.RocketLeft {
 position: absolute;
 left: 0%;
 top: 0px;
-width: 100%;
+width: 180px;
 height: 100px;
-background-color: #13b4ff;
 }
 
+.RocketRight {
+position: absolute;
+left: 90%;
+top: 0px;
+width: 180px;
+height: 100px;
+}
+
+.banner {
+position: relative;
+left: -10px;
+top: -10px;
+width: 1872px;
+height: 100px;
+background-color: #2D4F90;
+border-style: outset;
+border-width: 5px;
+border-color: #E0C245;
+}
+
+body {background-color: #332E32;}
 </style>
 <head>
-<title>Home</title>
+	<title>Home</title>
 </head>
 <body>
-
-<div class="banner"></div>
-
+	<div class="banner">
+		<img class="RocketLogo" src="roket_league_logo.png">
+		<img class="RocketLeft" src="rouket_left.png">
+		<img class="RocketRight" src="rocket_right.png">
+		<img class="RocketName" src="rocket-only-league.png">
+	</div>
+	
+	
 </body>
 </html>
