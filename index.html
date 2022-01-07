@@ -21,10 +21,7 @@ left: 29%;
 top: 5px;
 width: 800px;
 height: 80px;
-border-style: outset;
-border-width: 5px;
-border-color: #E0C245;
-border-radius: 20px;
+
 }
 
 .titil2 {
@@ -33,46 +30,39 @@ left: 38%;
 top: 5px;
 width: 600px;
 height: 80px;
-border-style: outset;
-border-width: 5px;
-border-color: #E0C245;
-border-radius: 20px;
+
 }
 
 .RocketLogo {
 position: absolute;
-left: 45%;
-top: 250px;
-width: 200px;
-height: 200px;
-border-radius: 100px;
+border-radius: 100%;
 border-style: outset;
-border-width: 5px;
+border-width: 1%;
 border-color: #E0C245;
 }
 
 .RocketLeft {
-position: absolute;
+position: relative;
 left: 0%;
-top: 0px;
-width: 180px;
-height: 100px;
+top: 0%;
+width: 10%;
+height: 60%;
 }
 
 .RocketRight {
-position: absolute;
-left: 90%;
-top: 0px;
-width: 180px;
-height: 100px;
+position: relative;
+left: 80%;
+top: 0%;
+width: 10%;
+height: 60%;
 }
 
 .banner {
 position: relative;
-left: -10px;
-top: -10px;
-width: 1872px;
-height: 100px;
+left: -0.3%;
+top: 0%;
+width: 100%;
+height: 20%;
 background-color: #2D4F90;
 border-style: outset;
 border-width: 5px;
@@ -80,11 +70,11 @@ border-color: #E0C245;
 }
 
 .back {
-position: absolute;
-left: -1px;
-top: 110px;
-width: 1866px;
-height: 600px;
+position: relative;
+left: -0.3%;
+top: 0%;
+width: 100%;
+height: 20%;
 border-style: outset;
 border-width: 5px;
 border-color: #E0C245;
@@ -92,10 +82,10 @@ border-color: #E0C245;
 
 .banner2 {
 position: relative;
-left: -10px;
-top: 610px;
-width: 1872px;
-height: 100px;
+left: -0.3%;
+top: 0%;
+width: 100%;
+height: 20%;
 background-color: #2D4F90;
 border-style: outset;
 border-width: 5px;
@@ -103,11 +93,23 @@ border-color: #E0C245;
 }
 
 .banner3 {
-position: absolute;
-left: -10px;
-top: 1700px;
-width: 1872px;
-height: 100px;
+position: relative;
+left: -0.3%;
+top: 0%;
+width: 100%;
+height: 20%;
+background-color: #2D4F90;
+border-style: outset;
+border-width: 5px;
+border-color: #E0C245;
+}
+
+.banner4 {
+position: relative;
+left: -0.3%;
+top: 0%;
+width: 100%;
+height: 20%;
 background-color: #2D4F90;
 border-style: outset;
 border-width: 5px;
@@ -125,6 +127,8 @@ height: 75%;
 
 }
 
+
+
 body {background-color: #332E32;}
 </style>
 <head>
@@ -132,373 +136,44 @@ body {background-color: #332E32;}
 </head>
 <body>
 	
+	
 	<div class="banner">
-		<img class="back" src="back.png">
-		<img class="RocketLogo" src="roket_league_logo.png">
 		<img class="RocketLeft" src="rouket_left.png">
 		<img class="RocketRight" src="rocket_right.png">
-		<img class="titil" src="rocket_only_league.png">
-		
+		<img class="titil" src="rocket_only_league.png" style="position: relative; left: 10%; top: 0%; width: 40%; height: 0%;">
+		<img class="RocketLogo" src="roket_league_logo.png" style="left: 20%; top: 3%; width: 7%; height: 85%;">
+		<img class="RocketLogo" src="roket_league_logo.png" style="left: 73%; top: 3%; width: 7%; height: 85%;">
 	</div>
+	
+	
+	
+	<img class="back" src="back.png">
+
+	
 	
 	<div class="banner2">
-		
 		<img class="RocketLeft" src="rouket_left.png">
 		<img class="RocketRight" src="rocket_right.png">
-		<img class="titil2" src="about.png">
-		
+		<img class="titil2" src="about.png" style="position: relative; left: 20%; top: 0%; width: 20%; height: 0%;">
 	</div>
 	
-	<p class="font">
+	<p class="font" style="top:50%;">
 		This is a league where teams compete against each other in a payload and a domination 
 		and if there is a tie a stadium or a TDM but the twist 
 		is the only weapon each team will have is rockets.
 	</p>
 	
-	<div class="banner2">
+	<div class="banner3">
 		<img class="RocketLeft" src="rouket_left.png">
 		<img class="RocketRight" src="rocket_right.png">
-		<img class="titil2" src="teams.png">
+		<img class="titil2" src="teams.png" style="position: relative; left: 20%; top: 0%; width: 20%; height: 0%;">
+	</div>
+	
+	<div class="banner4">
+		<img class="RocketLeft" src="rouket_left.png">
+		<img class="RocketRight" src="rocket_right.png">
 	</div>
 
-	<table class="ts1" style="left: 10px; top: 1180px;" >
-		<tr>
-			<th class="font1">Team Name</th>
-			<th class="font1">TEAM</th>
-		<tr>
-		<tr>
-			<td class="font1">Captain</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-
-	</table>
-
-	<table class="ts1" style="left: 320px; top: 1180px;" >
-		<tr>
-			<th class="font1">Team Name</th>
-			<th class="font1">TEAM</th>
-		<tr>
-		<tr>
-			<td class="font1">Captain</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-
-	</table>
-
-	<table class="ts1" style="left: 630px; top: 1180px;" >
-		<tr>
-			<th class="font1">Team Name</th>
-			<th class="font1">TEAM</th>
-		<tr>
-		<tr>
-			<td class="font1">Captain</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-
-	</table>
-
-	<table class="ts1" style="left: 940px; top: 1180px;" >
-		<tr>
-			<th class="font1">Team Name</th>
-			<th class="font1">TEAM</th>
-		<tr>
-		<tr>
-			<td class="font1">Captain</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-
-	</table>
-
-	<table class="ts1" style="left: 1250px; top: 1180px;" >
-		<tr>
-			<th class="font1">Team Name</th>
-			<th class="font1">TEAM</th>
-		<tr>
-		<tr>
-			<td class="font1">Captain</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-
-	</table>
-
-	<table class="ts1" style="left: 1560px; top: 1180px;" >
-		<tr>
-			<th class="font1">Team Name</th>
-			<th class="font1">TEAM</th>
-		<tr>
-		<tr>
-			<td class="font1">Captain</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-		<tr>
-			<td class="font1">Player</td>
-			<td class="font1">person</td>
-		<tr>
-
-	</table>
-
-
-	<div class="banner3"></div>
 	
 	
 </body>
