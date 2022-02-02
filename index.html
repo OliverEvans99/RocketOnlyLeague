@@ -1,7 +1,19 @@
 <!DOCTYPE html>
 <html>
-
 <style>
+tim {
+  position: absolute;
+  text-align: center;
+  font-size: 65px;
+  margin-top: -55%;
+  margin-left: 32%;
+  font-family: Fantasy;
+  color: #E0C245;
+  background: #2D4F90;
+  border-style: outset;
+  border-width: 1%;
+  border-color: #E0C245;
+}
 .font {
 position: relative;
 top: 600px;
@@ -163,11 +175,13 @@ border-color: #E0C245;
 
 body {background-color: #332E32;}
 </style>
+
 <head>
 	<title>Home</title>
 </head>
 <body>
 	
+
 	<div class="banner">
 		<img class="RocketLeft" src="rouket_left.png">
 		<img class="RocketRight" src="rocket_right.png">
@@ -176,10 +190,41 @@ body {background-color: #332E32;}
 		<img class="RocketLogo" src="roket_league_logo.png" style="left: 73%; top: 3%; width: 7%; height: 85%;">
 	</div>
 	
-	
-	
 	<img class="back" src="back.png">
+	<tim id="demo"></tim>
+	<script>
+		// Set the date we're counting down to
+		var countDownDate = new Date("Feb 13, 2022 00:00:00").getTime();
 
+		// Update the count down every 1 second
+		var x = setInterval(function() {
+
+  		// Get today's date and time
+  		var now = new Date().getTime();
+    
+  		// Find the distance between now and the count down date
+  		var distance = countDownDate - now;
+    
+  		// Time calculations for days, hours, minutes and seconds
+  		var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+ 	 	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  		var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  		var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  		// Output the result in an element with id="demo"
+  		document.getElementById("demo").innerHTML = "Starts in:- " + days + "d " + hours + "h "
+  		+ minutes + "m " + seconds + "s ";
+    
+  		// If the count down is over, write some text 
+  		if (distance < 0) {
+    		clearInterval(x);
+    		document.getElementById("demo").innerHTML = "EXPIRED";
+  		}
+		}, 1000);
+	</script>
+	
+
+	
 	
 	
 	<div class="banner2">
